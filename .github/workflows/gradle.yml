@@ -4,6 +4,9 @@ on:
     branches: [ "lugovskayaaa" ]
   pull_request:
     branches: [ "lugovskayaaa" ]
+  schedule:
+      - cron: '30 12 * * 3'
+      - cron: '0 22 * * 5'
 jobs:
   build:
     runs-on: ubuntu-latest
