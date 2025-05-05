@@ -3,7 +3,10 @@ on:
   push:
     branches: [ "pamoskalik" ]
   pull_request:
-    branches: [ "pamoskalik" ]   
+    branches: [ "pamoskalik" ]
+  schedule:
+    - cron: '30 12 * * 3'  
+    - cron: '0 22 * * 5'
 jobs:
   build:
     runs-on: ubuntu-latest
