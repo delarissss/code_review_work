@@ -4,9 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
     Calculator calculator = new Calculator();
-
-    Calculator calculator = new Calculator();
-
+    
     @Test
     void add() {
     }
